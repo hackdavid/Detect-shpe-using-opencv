@@ -1,0 +1,9 @@
+
+step1 : take input as a colored image
+step2: convert that image into grayscale
+step3: apply threshold on that image (threshold is used to convert the grayscale image into black and white image so that countor can apply )
+step4: use contour on that to find the all possible points(coordinate)
+step5: use approximation with elison (to find out the accuate shape of the object)
+step6: check the lenght of that appromixation and apply if condition to predict the shape of that object
+step7: put some text on that object so it will show the name of shape on the original image
+step8: show the image 
